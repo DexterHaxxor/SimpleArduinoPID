@@ -40,7 +40,7 @@ bool button() {
   return analogRead(A7) > 768;
 }
 
-// Yoinked from
+// Yoinked from https://github.com/pololu/qtr-sensors-arduino
 void read() {
   for (uint8_t i = 0; i < sensor_count; i++) {
     sensor_values[i] = 2500;
